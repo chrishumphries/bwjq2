@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Cahaba%20Blueway%20Put%20Ins%20-%20Sheet%201</name>
+	<Snippet maxLines="2"><![CDATA[created using <A href="http://www.gpsvisualizer.com/?ref=ge&time=1361740460">GPS Visualizer</A>]]></Snippet>
+	<Style id="gv_waypoint_normal">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<p align="left" style="white-space:nowrap;"><font size="+1"><b>$[name]</b></font></p> <p align="left">$[description]</p>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="gv_waypoint">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#gv_waypoint_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#gv_waypoint_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="gv_waypoint_highlight">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<p align="left" style="white-space:nowrap;"><font size="+1"><b>$[name]</b></font></p> <p align="left">$[description]</p>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder id="Waypoints">
+		<name>Waypoints</name>
+		<Placemark>
+			<name>Trussville</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-86.59998893700001,33.62258873,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Marvel Slab</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.029444,33.165553,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Heiburger Bridge</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.272965908,32.774700327,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Camp Coleman</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-86.567373276,33.621230761,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lily Trip Beach</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.06699399999999,33.080236,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pratt&apos;s Ferry Bridge</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.078219,33.018681,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AL River Take Out</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.097431421,32.315653179,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>County Road 10</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-86.54889822,33.605237284,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Booth&apos;s Ford</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.00116694,33.185139501,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cahaba Historical Park</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.139044,32.944942,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Highway 78</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-86.61329269399999,33.546366469,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Old Overton Rd</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-86.702020168,33.4850306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bains Bridge</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-86.813822,33.363344,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sprott Bridge</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.242281437,32.6682266,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grants Mill Road</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-86.663246155,33.514635036,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Buck Creek Park</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-86.843658,33.297244,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Suttle</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.203464508,32.528578829,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Highway 280</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-86.713886261,33.431763668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Highway 52</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-86.870672107,33.31032979,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Radford Access</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.217326164,32.591623528,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Riverford Dr.</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-86.778066158,33.38710471,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Perry Lake Park</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.243008,32.694539,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Presbytery 1</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.017211914,33.169707678,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Harrisburg Bridge</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.197928429,32.8556528,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tate&apos;s Take Out</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.02593299999999,33.159892,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Highway 80 Marion Junction</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.18023657800001,32.444450367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cahaba River National Wildlife Refuge</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.057638168,33.094993108,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Caffee Creek</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.07281399999999,33.077236,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Highway 22</name>
+			<Snippet maxLines="0"></Snippet>
+			<description>&amp;nbsp;</description>
+			<styleUrl>#gv_waypoint</styleUrl>
+			<Point>
+				<coordinates>-87.133056,32.35945,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

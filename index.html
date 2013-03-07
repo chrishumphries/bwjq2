@@ -1,0 +1,281 @@
+<!DOCTYPE html> test
+<html> 
+<head> 
+	<title>My Blueway</title> 
+	<link rel="apple-touch-icon" href="http://www.chris-humphries.com/bwjq/img/bluewaylogo.png"/>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />	
+	<link rel="stylesheet" href="http://www.chris-humphries.com/bwjq/weather.css"/>
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	<script src="http://www.chris-humphries.com/bwjq/jquery.simpleWeather.js"></script>
+	<script src="http://www.chris-humphries.com/bwjq/jquery.ui.map.js"></script>
+	<script src="http://www.chris-humphries.com/bwjq/jquery.ui.map.extensions.js"></script>
+	<script src="http://www.chris-humphries.com/bwjq/twitter.js"></script>
+
+	
+	<script>
+      window.top.scrollTo(0, 1);
+     
+      google.load("jquery", "1.4.1");
+      google.load("jqueryui", "1.8.0");
+    </script>
+    
+    <script type="text/javascript">
+        $(function() {
+                // Also works with: var yourStartLatLng = '59.3426606750, 18.0736160278';
+                var yourStartLatLng = new google.maps.LatLng(59.3426606750, 18.0736160278);
+                $('#map_canvas').gmap({'center': yourStartLatLng});
+                
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.62258872997,-86.599988937378', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.621230761301,-86.567373275757', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.605237283535,-86.548898220062', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.546366469076,-86.613292694092', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.514635035823,-86.663246154785', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.485030599532,-86.702020168304', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.431763668305,-86.713886260986', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.387104709722,-86.778066158295', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.363344,-86.813822', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.310329790262,-86.870672106743', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.297244,-86.843658', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.185139500547,-87.001166939735', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.169707677776,-87.017211914062', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.165553,-87.029444', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.159892,-87.025933', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.094993107768,-87.057638168335', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.080236,-87.066994', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.077236,-87.072814', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.018681,-87.078219', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.944942,-87.139044', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.855652799757,-87.19792842865', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.774700327269,-87.272965908051', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.694539,-87.243008', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.668226600493,-87.24228143692', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.591623528431,-87.217326164246', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.528578828718,-87.203464508057', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.44445036694,-87.180236577988', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.35945,-87.133056', 'bounds': true } );
+                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.315653178625,-87.09743142128', 'bounds': true } );
+
+        });
+        
+        
+</script>
+
+<script type="text/javascript">
+        $.mobile.ajaxEnabled = false;
+</script>
+
+    
+    <script>
+    $(document).ready(function() {
+  $.simpleWeather({
+    zipcode: '35205',
+    woeid: '2357536',
+    location: '',
+    unit: 'f',
+    success: function(weather) {
+      html = '<h2>'+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+      html += '<ul><li>'+weather.city+', '+weather.region+'</li>';
+      html += '<li class="currently">'+weather.currently+'</li>';
+      
+  
+      $("#weather").html(html);
+    },
+    error: function(error) {
+      $("#weather").html('<p>'+error+'</p>');
+    }
+  });
+  $('#weather').content('refresh');
+});
+</script>
+
+<script>
+$(window).click(handleClick);
+
+function handleClick(e) {
+    var target = $(e.target).closest('a');
+    if( target ) {
+        e.preventDefault();
+        window.location = target.attr('href');
+    }
+}
+</script>
+
+
+
+
+    
+    <script language="javascript"> document.ontouchmove = function(e){ e.preventDefault(); }</script>
+</head> 
+<body> 
+
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div data-role="page" id="home">
+
+	<div data-role="header" data-position="fixed">
+		<h1>Cahaba Blueway</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" >
+		<div class="butspace">
+		<a href="river.html"  data-role="button" data-transition="slide">River</a>
+		<a href="#trails" data-role="button" data-transition="slide">Trails</a>
+		<a href="#comm" data-role="button" data-transition="slide">Community</a>
+		<a href="#hist" data-role="button" data-transition="slide">History</a>
+		</div>
+		
+	<div data-role="content" id="weather"></div>
+	</div><!-- /content -->
+	
+	
+	
+	<div class="footersp"
+	<div data-role="footer"  data-position="fixed">		
+	<div data-role="navbar" data-iconpos="top">
+		<ul>
+			<li><a href="#">One</a></li>
+			<li><a href="#">Two</a></li>
+			<li><a href="#">Three</a></li>
+		</ul>
+	</div><!-- /navbar -->
+</div><!-- /footer -->
+</div>
+
+</div><!-- /page -->
+
+
+<div data-role="page" id="trails">
+
+	<div data-role="header" data-position="fixed">
+	<a href="#home"  data-role="button" data-rel="back" >Back</a>
+		<h1>Trails</h1>
+	</div><!-- /header -->
+
+	<div  data-role="content">
+		<h1>Trails</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec magna eget lectus imperdiet congue eget a arcu. Aenean interdum, neque eu elementum congue, enim risus rutrum ipsum, vitae tincidunt neque justo ut elit. Sed leo leo, ultrices in lacinia id, gravida sit amet orci. Nullam porta tincidunt felis, eu consectetur felis vehicula at. Vivamus lectus sapien, aliquam vitae mollis quis, accumsan ut urna.</p>
+	</div>
+  
+	
+	<div class="footersp">
+	<div data-role="footer"  data-position="fixed">		
+	<div data-role="navbar" data-iconpos="top">
+		<ul>
+			<li><a href="#">One</a></li>
+			<li><a href="#">Two</a></li>
+			<li><a href="#">Three</a></li>
+		</ul>
+	</div><!-- /navbar -->
+</div><!-- /footer -->
+</div>
+
+</div><!-- /page -->
+
+<div data-role="page" id="comm">
+
+	<div data-role="header" data-position="fixed">
+	<a href="index.html"  data-role="button" data-rel="back" >Back</a>
+		<h1>Community</h1>
+	</div><!-- /header -->
+
+	<div  data-role="content">
+		<h1>Community</h1>
+	
+<div data-role="collapsible">
+<h4> Facebook </h4>
+<div class="fb-like-box" data-href="http://www.facebook.com/pages/Cahaba-River-Society/131565936855518" data-width="270" data-height="425" data-show-faces="true" data-stream="true" data-header="false"></div>
+	</div>
+	<div data-role="collapsible">
+	<h4>Twitter</h4>
+	<a class="twitter-timeline" href="https://twitter.com/chrishumphr1es" data-widget-id="309534926036934657">Tweets by @chrishumphr1es</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+	</div>
+	
+	</div>
+  
+	
+	<div class="footersp">
+	<div data-role="footer"  data-position="fixed">		
+	<div data-role="navbar" data-iconpos="top">
+		<ul>
+			<li><a href="#">One</a></li>
+			<li><a href="#">Two</a></li>
+			<li><a href="#">Three</a></li>
+		</ul>
+	</div><!-- /navbar -->
+</div><!-- /footer -->
+</div>
+
+</div><!-- /page -->
+
+<div data-role="page" id="hist">
+
+	<div data-role="header" data-position="fixed">
+	<a href="index.html"  data-role="button" data-rel="back" >Back</a>
+		<h1>History</h1>
+	</div><!-- /header -->
+
+	<div  data-role="content">
+		<h1>History</h1>
+		
+		<div data-role="collapsible-set">
+
+	<div data-role="collapsible" data-collapsed="true">
+	<h3>Tannehill Ironworks</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec magna eget lectus imperdiet congue eget a arcu. Aenean interdum, neque eu elementum congue, enim risus rutrum ipsum, vitae tincidunt neque justo ut elit. Sed leo leo, ultrices in lacinia id, gravida sit amet orci. Nullam porta tincidunt felis, eu consectetur felis vehicula at. Vivamus lectus sapien, aliquam vitae mollis quis, accumsan ut urna.</p>
+	</div>
+	<div data-role="collapsible" data-collapsed="true">
+	<h3>West Blocton Coke Ovens</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec magna eget lectus imperdiet congue eget a arcu. Aenean interdum, neque eu elementum congue, enim risus rutrum ipsum, vitae tincidunt neque justo ut elit. Sed leo leo, ultrices in lacinia id, gravida sit amet orci. Nullam porta tincidunt felis, eu consectetur felis vehicula at. Vivamus lectus sapien, aliquam vitae mollis quis, accumsan ut urna.</p>
+	</div>
+	<div data-role="collapsible" data-collapsed="true">
+	<h3>Brierfield Ironworks</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec magna eget lectus imperdiet congue eget a arcu. Aenean interdum, neque eu elementum congue, enim risus rutrum ipsum, vitae tincidunt neque justo ut elit. Sed leo leo, ultrices in lacinia id, gravida sit amet orci. Nullam porta tincidunt felis, eu consectetur felis vehicula at. Vivamus lectus sapien, aliquam vitae mollis quis, accumsan ut urna.</p>
+	</div>
+	<div data-role="collapsible" data-collapsed="true">
+	<h3>Old Cawhaba</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec magna eget lectus imperdiet congue eget a arcu. Aenean interdum, neque eu elementum congue, enim risus rutrum ipsum, vitae tincidunt neque justo ut elit. Sed leo leo, ultrices in lacinia id, gravida sit amet orci. Nullam porta tincidunt felis, eu consectetur felis vehicula at. Vivamus lectus sapien, aliquam vitae mollis quis, accumsan ut urna.</p>
+	</div>
+	
+	<div data-role="collapsible" data-collapsed="true">
+	<h3>Moundville</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec magna eget lectus imperdiet congue eget a arcu. Aenean interdum, neque eu elementum congue, enim risus rutrum ipsum, vitae tincidunt neque justo ut elit. Sed leo leo, ultrices in lacinia id, gravida sit amet orci. Nullam porta tincidunt felis, eu consectetur felis vehicula at. Vivamus lectus sapien, aliquam vitae mollis quis, accumsan ut urna.</p>
+	</div>
+	</div>
+	</div>
+	
+	
+  
+	
+	<div class="footersp">
+	<div data-role="footer"  data-position="fixed">		
+	<div data-role="navbar" data-iconpos="top">
+		<ul>
+			<li><a href="#">One</a></li>
+			<li><a href="#">Two</a></li>
+			<li><a href="#">Three</a></li>
+		</ul>
+	</div><!-- /navbar -->
+</div><!-- /footer -->
+</div>
+
+</div><!-- /page -->
+
+
+
+
+</body>
+</html>
